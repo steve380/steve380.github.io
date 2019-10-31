@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>symphonic</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <!-- Main css -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <img src="images/PAPPER.jpg" class="back">
+    <!-- 網頁抬頭選單 -->
+    <header>
+        <nav class="navbar navbar-dark bg-secondary navbar-expand-md fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+                <a href="#" class="navbar-brand">
+                    <img src="images/SAX.png" alt="logo" />
+                </a>
+                <!-- 手機選單漢堡按鈕 -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+          <!-- 漢堡ICON -->
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+                <!-- 選單內容 -->
+                <div id="navbar-collapse" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li><a href="#creative" class="nav-link">簡介</a></li>
+                        <li><a href="#video" class="nav-link">樂譜</a></li>
+                        <li><a href="#creative" class="nav-link">樂器</a></li>
+                        <li><a href="#activity" class="nav-link">近代作曲家</a></li>
+                        <li><a href="#video" class="nav-link">音樂欣賞</a></li>
+                    </ul>
+                </div>
+                <div id="navbar-collapse" class="collapse navbar-collapse test">
+                        <ul class="navbar-nav ml-auto">
+                            <li><a href="#creative" class="nav-link">簡介</a></li>
+                            <li><a href="#video" class="nav-link">樂譜</a></li>
+                            <li><a href="#creative" class="nav-link">樂器</a></li>
+                            <li><a href="#activity" class="nav-link">近代作曲家</a></li>
+                            <li><a href="#video" class="nav-link">音樂欣賞</a></li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 可以輪播的Banner圖片 -->
+    <section id="product">
+        <div id="carousel-controller" class="carousel slide" data-ride="carousel">
+            <!-- 輪播圖片 -->
+            <div class="carousel-inner">
+                <!-- 圖片1 -->
+                <div class="carousel-item active">
+                    <img class="w-100" src="images/55919043_2032162976833472_2923882214628261888_n.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>社團活動</h1>
+                        <p> 成果發表 音緣際會</p>
+                    </div>
+                </div>
+                <!-- 圖片2 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/41790410_1774361549280284_7489889237228060672_o.jpg" alt="">
+                    <div class="carousel-caption">
+                        <h1>社團比賽</h1>
+                        <p>107全國學生音樂大賽</p>
+                    </div>
+                </div>
+                <!-- 圖片3 -->
+                <div class="carousel-item">
+                    <img class="w-100" src="images/15235728_1120709934645452_6089602464633246475_o.jpg" alt="">
+                    <div class="carousel-caption" id="test">
+                        <h1>校慶表演</h1>
+                        <p>儀隊慶祝</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 圖片上一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="prev" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <!-- 圖片下一頁按鈕 -->
+            <a href="#carousel-controller" data-slide="next" class=" carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- 下方點點 -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-controller" data-slide-to="0"></li>
+                <li data-target="#carousel-controller" data-slide-to="1"></li>
+                <li data-target="#carousel-controller" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- 影片 -->
+    <section class="container-fluid video-area" id="video">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U9reIf8HqKc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <!-- 產品介紹區塊(創意) -->
+    <section id="creative" class="creative_area">
+        <div class="container">
+            <h2 class="text-center">
+                管樂器一覽
+            </h2>
+            <!-- 產品照片 -->
+            <div class="row">
+                <!-- 照片組1 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片1" src="images/flute2.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">木管樂器</span>
+                               
+                            </div>
+                            <div class="pic-hover">
+                                <h4>長笛、豎笛、薩克斯</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組2 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片2" src="images/flute2.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">銅管樂器</span>
+                                
+                            </div>
+                            <div class="pic-hover">
+                                <h4>小號、法國號、上低音號</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- 照片組3 -->
+                <div class="col">
+                    <div class="card">
+                        <a href="#"><img alt="產品照片3" src="images/function03.jpg">
+                            <div class="card-title-wrap">
+                                <span class="card-title">打擊樂器</span>
+                                
+                            </div>
+                            <div class="pic-hover">
+                                <h4>鼓類、琴類、拔</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <h4 >管樂團（concert band，亦稱wind band)</h6>
+                <p>是由木管樂器（woodwind）、銅管樂器（brass）以及打擊樂器（percussion）所組成。</br>
+                它多變的曲目包括原創的管樂曲、改編的古典音樂、輕音樂、以及流行音樂。</br>
+                雖然管樂團跟行進樂隊（Marching Band）所使用的樂器很接近，但是管樂團的主要目的是管樂合奏。</br>
+            </div>
+            
+
+        </div>
+    </section>
+    <!-- 商品文案 -->
+    <section class="test">
+        <!-- <img src="images/PAPPER.jpg" class="back"> -->
+        <div class="container">
+            <div>
+                <div class="article_text">
+                    <img src="images/flute.jpg" class="flute_index">
+                    <p class="flute_text">
+                        <h3>長笛</h3>
+                    </p>
+                    <p>長笛是現代管弦樂和室內樂中主要的高音旋律樂器，外型是一根開有數個音孔的圓柱型長管。</br>
+                        長笛是現代已知的樂器家族中最古老的成員之一</br>
+                        「笛」這種稱呼被古人用來統稱其他所有的管型樂器</br>
+                    </p>
+                    <img src="images/horn.jpg" class="flute_index">
+                    <p class="flute_text">
+                        <h3>法國號</h3>
+                    </p>
+                    <p>法國號或稱圓號，是一種中音銅管樂器</br>
+                        法國號的吹法基本上與其它同類的銅管樂器類似</br>
+                        法國號具有雙調性</br>
+                        也是音域最廣的管樂器之一
+                    </p>
+                    <img src="images/drom.jpg" class="flute_index">
+                    <p class="flute_text">
+                        <h3>定音鼓</h3>
+                    </p>
+                    <p>定音鼓 是一種膜鳴樂器，由古代戰爭時的戰鼓所演變出來的變種樂器。</br>
+                       在巴洛克時代後期開始在樂隊中使用，古典時期起已成為了常規化的樂器，<br>
+                       亦成為了整個交響樂團中的一個重要樂器。
+                    </p>
+                </div>
+            </div>
+        </div>
+
+       
+        
+
+    <!-- 商品促銷活動區塊 -->
+    <section id="activity" class="activity_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/activity_img1.jpg">
+                </div>
+
+                <div class="col-md-4 activity_price text-center">
+                    <h2>售價： <span>1490 </span>元</h2>
+                    <h1>加送</h1>
+                    <h2>420不鏽鋼刀具七件組</h2>
+                </div>
+
+                <div class="col-md-4">
+                    <img src="images/activity_img2.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 規格 -->
+    <section id="standard" class="standard_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <table class="table table-hover">
+                        <tr>
+                            <h5 scope="col">規格說明：</h5>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <th scope="row">中英文品名：</th>
+                                <td>halla malmo可拆式不沾鍋四件組</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">材質：</th>
+                                <td>鋁合金不沾塗層</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">尺寸：</th>
+                                <td colspan="2">炒鍋:28X9cm、煎鍋:26X5cm 湯鍋:20X9cm</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">內容物：</th>
+                                <td colspan="2">炒鍋X1、煎鍋X1、湯鍋X1、可拆式把手X1</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">產地：</th>
+                                <td colspan="2">中國</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <table class="table">
+                        <tr>
+                            <h5 scope="col">使用說明：</h5>
+                        </tr>
+                        <ul class="standard_use">
+                            <li>鍋鏟選擇 建議使用木鏟、木筷子或不沾鍋專用塑膠鏟，一般金屬鐵鏟容易刮傷不沾鍋塗層。建議避免以鍋鏟敲打鍋面，以免鍋具受損。</li>
+                            <li>烹調時也請避免長時間高溫烹調或高溫油炸及烹調蚌類、蟹類等硬殼食材以延長鍋具壽命。</li>
+                            <li>為延長鍋具使用壽命，使用時務必注意不可讓鍋具空燒，以免燒壞鍋具。若有高溫空燒的狀況，請先讓鍋子遠離熱源，並以自然方式降溫，不要使用外力來劇烈降溫，以免鍋子受損。</li>
+                            <li>適用爐具：瓦斯爐、電熱爐、平板電爐、電陶爐、烤箱（把手請勿置於烤箱內）。</li>
+                        </ul>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 貼心提醒 -->
+    <section>
+        <div class="container content">
+            <div class="row remind">
+                <h4>貼心提醒</h4>
+                <div class="w-100"></div>
+                <p>使用時請留意：</p>
+                <ul>
+                    <li>烹調時把手請勿直接接觸火源。</li>
+                    <li>請將烹調熱源控制於鍋底範圍，以免把手損壞。</li>
+                    <li>鍋具把手視為鍋具本體耗材的一部分，若是損壞則無法維修。</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁腳 -->
+    <footer class="footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12 footer_logo">
+                    <img src="images/SAX.png">
+                </div>
+                <div class="col-md-4 col-sm-12 footer_address">
+                    <ul>
+                        <li>專 線：04-0000000</li>
+                        <li>服務時間：週一至週五 17:00 ~ 19:00</li>
+                        <li>服務信箱：datanofound@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer_copyright justify-content-center">
+                <p>COPYRIGHT © 2019 halla malmo .ALL RIGHTS RESERVED.</p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+    <script src="js/back_top.js"></script>
+</body>
+
+</html>

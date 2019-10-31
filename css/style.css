@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    font-family: '微軟正黑體', sans-serif;
+    background-color: #ffffff;
+}
+
+.background{
+    background-color: rgba(235, 162, 67, 0.918)
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.title_Introduction span {
+    color: #f6eff7;
+    font-size: 45px;
+}
+
+/* ------ 影片 ------ */
+
+.video-area {
+    padding: 5% 20%;
+    background-color: #6c757d;
+}
+
+.video-container {
+    position: relative;
+    padding: 30%;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ------產品介紹區塊 ------*/
+
+.creative_area {
+    padding: 50px 0 100px 0;
+    background-color: #fff;
+}
+
+.creative_area h2 {
+    color: #6fafb4;
+    margin: 20px 0 60px 0;
+}
+
+.creative_area .card img {
+    width: 100%;
+}
+
+.creative_area .card h4 {
+    color: #fff;
+}
+
+
+/* 把標題區塊card-title-wrap設定好位置 */
+
+.creative_area .card-title-wrap {
+    padding: 15px 25px;
+    position: relative;
+    z-index: 9;
+    background-color: #fff;
+}
+
+
+/* 設定產品說明文字標題 */
+
+.creative_area .card-title-wrap .card-title {
+    display: block;
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.creative_area .card-title-wrap .card-text {
+    display: block;
+    margin: 0;
+    font-size: 18px;
+    color: #335
+}
+
+
+/* 滑鼠滑過去  */
+
+.creative_area .card:hover {
+    visibility: visible;
+    background-color: #6fafb4;
+}
+
+.creative_area .card:hover .card-title-wrap {
+    background-color: #6fafb4;
+}
+
+
+/* 滑鼠滑過照片變透明 */
+
+.creative_area .pic-hover {
+    padding-top: 45px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.creative_area .card:hover .pic-hover {
+    opacity: .8;
+    visibility: visible;
+    color: #FFFFFF;
+}
+
+
+/* 商品文案 */
+
+.flute_index{
+    position:relative; top:20px;
+    margin-right:20px;
+    float: left;
+}
+
+.flute_text{
+    float: left;
+}
+
+.article_text h3 {
+    color: #ffffff;
+    margin: 10px 0;
+    letter-spacing: .5rem;
+   
+}
+
+.article_text h1 {
+    color: #6fafb4;
+    margin: 10px 0;
+}
+
+.article_text p {
+    color: #dbdddd;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 50px;
+}
+
+
+/* ------ 背景影片 ------ */
+
+.back {
+    width: inherit;
+    height: inherit;
+    position: fixed;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.white{
+    color: #ffffff;
+    font-weight: 700;
+}
+#test {
+    color: #000000;
+    font-weight: 700;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    /* max-width 會讓影隨著螢幕大小改變，
+    min-width就只會維持影片原尺寸! */
+    max-width: 100%;
+    max-height: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+
+
+/* 商品促銷活動 */
+
+.activity_area {
+    background-color: #ffffff;
+    padding: 150px 0;
+    padding: 150px 0;
+}
+
+.activity_price {
+    margin: 50px 0;
+}
+
+.activity_price span {
+    color: #db3a55;
+    font-size: 5rem;
+}
+
+.activity_price h1 {
+    margin: 20px 0;
+    color: #969696;
+}
+
+.activity_price h2 {
+    color: #3e3f3f;
+}
+
+
+/* 規格 */
+
+.standard_area {
+    background-color: #FFFFFF;
+}
+
+.standard_use {
+    list-style-type: decimal;
+}
+
+.standard_use li {
+    font-size: 16px;
+    line-height: 1.5rem;
+    text-align: justify;
+    margin-bottom: 15px;
+    color: #3e3f3f;
+}
+
+
+/* 貼心提醒 */
+
+.content {
+    position: relative;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.remind {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #FFFFFF;
+}
+
+
+/* 頁腳 */
+
+.footer {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px 0;
+}
+
+.footer_logo img {
+    max-width: 100px;
+}
+
+.footer_address ul {
+    list-style-type: none;
+    font-size: 14px;
+    line-height: 1.2rem;
+    color: #000000;
+}
+
+.footer_copyright {
+    font-size: 10px;
+}
